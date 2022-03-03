@@ -1,6 +1,3 @@
-/* styles for my resume */
-
-
 
 BODY {
  font-family: 'Open Sans', arial, sans-serif;
@@ -9,12 +6,24 @@ BODY {
  font-weight: 400;
 }
 
+/*container for full page */
+
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Name */
-h1 {
+#name {
  font-size:3.5em;
  color:#33485e;
  text-transform: uppercase;
  text-align:center;
+ border-bottom: 2px solid #33485e;
+ width: 60%;
+ min-width: 300px;
+ margin: 0 auto;
 }
 
 /* My Title */
@@ -26,12 +35,19 @@ strong {
 }
 
 /* Section titles */
-h2 {
+.sectionheader {
  font-size:1.5em;
  text-transform: uppercase;
- background-color:#33485e;
+ background-color: #33485e;
  color: white;
  font-weight: 400;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: 0px;
+ margin-right: 0px;
+ width: 70%;
+ min-width: 300px;
+ margin: 0 auto;
 }
 
 /* Job Title */
